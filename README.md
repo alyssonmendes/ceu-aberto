@@ -8,4 +8,3 @@ Infelizmente, o acúmulo de água em calhas, lajes é recorrente, e apenas detec
 
 ![alt text](https://github.com/alyssonmendes/ceu-aberto/blob/master/doc/index2.png)
 ![alt text](https://github.com/alyssonmendes/ceu-aberto/blob/master/doc/dash.png)
-![alt text](https://github.com/alyssonmendes/ceu-aberto/blob/master/doc/dash2.png)
