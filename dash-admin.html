@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard</title>
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" href="https://erikflowers.github.io/weather-icons/css/weather-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="icon" href="img/home.png" />
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/admin.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+            <a class="navbar-brand pop" href="#">Céu Aberto</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link pop" href="index.html">SAIR
+                <span class="sr-only">(current)</span>
+              </a>
+                    </li>
+                    <!--<li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container ">
+
+        <!-- Page Heading -->
+        <h1 class="my-4">Seja Bem Vindo
+            <!--
+      <small>Secondary Text</small>-->
+        </h1>
+
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 class="counter acumulo"></h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="text-muted">Casos de acúmulo de água</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 class="counter problems"></h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="text-muted">Problemas Técnicos Reportados</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class="bt-chat" data-toggle="modal" data-target="#modal-problemas" data-whatever="@getbootstrap">
+                            <div class="card card-icon center">
+                                <div class="card-body">
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <i class="fa fas fa-exclamation-triangle"></i>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Problemas técnicos</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="bt-chat" data-toggle="modal" data-target="#modal-cadastro" data-whatever="@getbootstrap">
+                            <div class="card card-icon center">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <i class="fa fas fa-user-plus"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h5>Cadastrar ou alterar usuário</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="row">
+                        <div class="col">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.4582707790096!2d-34.87499884397443!3d-7.135649594847398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB!5e0!3m2!1sen!2sbr!4v1521749915692"
+                                width="500" height="320" frameborder="0" style="border:0" allowfullscreen>
+              </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal Problemas-->
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="modal-problemas">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Problemas Reportados</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">First item</a>
+                            <a href="#" class="list-group-item">Second item</a>
+                            <a href="#" class="list-group-item">Third item</a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal Cadastro-->
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="modal-cadastro">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Novo cadastro</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <form class="login100-form validate-form" method="post">
+                                    <span class="login100-form-title">
+                    Dados do usuário
+                  </span>
+
+                                    <div class="wrap-input100 validate-input" data-validate="É preciso digitar um email válido">
+                                        <input class="input100" type="text" name="email" placeholder="Usuário">
+                                        <span class="focus-input100"></span>
+                                        <span class="symbol-input100">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                                    </div>
+
+                                    <div class="wrap-input100 validate-input" data-validate="Digite a senha">
+                                        <input class="input100" type="password" name="pass" placeholder="********">
+                                        <span class="focus-input100"></span>
+                                        <span class="symbol-input100">
+                      <i class="fa fa-lock" aria-hidden="true"></i>
+                    </span>
+                                    </div>
+
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer 
+  <footer class="py-5 bg-blue">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+    </div>-->
+    <!-- /.container 
+  </footer>-->
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="js/admin_update.js"></script>
+</body>
+
+</html>

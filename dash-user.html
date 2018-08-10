@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://erikflowers.github.io/weather-icons/css/weather-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="icon" href="img/home.png" />
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/user.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+            <a class="navbar-brand pop" href="index.html">Céu Aberto</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link pop" href="index.html">SAIR
+              <span class="sr-only">(current)</span>
+            </a>
+                    </li>
+                    <!--<li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <h1 class="my-4">Seja Bem Vindo
+            <!--<small>Seja Bem Vindo</small>-->
+        </h1>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <div class="card-body inf_clim">
+                        <h4 class="card-title">Informações Climáticas</h4>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <div class="card-body probabilidade_chuva">
+                        <h4 class="card-title">Probabilidade de Chuva</h4>
+                        <h6 class="text1">nos próximos 15 dias</h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card-icon card h-100">
+                    <div class="card-body condicao">
+                        <h4 class="card-title">Condição</h4>
+
+                        <div class="row">
+                            <div class="col"><i class="wi wi-day-cloudy"></i>
+                                <!--Sensor-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Sensor 1</h4>
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    <b>Situação:</b>
+                                </p>
+                            </div>
+                            <div class="col situacao1">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--  <div class="col">
+                  <button type="button" class="btn btn-primary bts1">Mostrar Gráfico</button>
+                </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Sensor 2</h4>
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    <b>Situação:</b>
+                                </p>
+                            </div>
+                            <div class="col situacao2">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- <div class="col">
+                                <button type="button" class="btn btn-primary">Mostrar Gráfico</button>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Sensor 3</h4>
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    <b>Situação:</b>
+                                </p>
+                            </div>
+                            <div class="col situacao3">
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- <div class="col">
+                                <button type="button" class="btn btn-primary">Mostrar Gráfico</button>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ultima">
+            <div class="col">
+                <a href="#" class="bt-chat" data-toggle="modal" data-target="#modal-chat" data-whatever="@getbootstrap">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3">
+                                    <i class="fa far fa-comments"></i>
+                                </div>
+                                <div class="col comp4 direita">
+                                    <h5>Chat</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" class="bt-chat" data-toggle="modal" data-target="#modal-ajuda">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3">
+                                    <i class="fa fas fa-question-circle"></i>
+                                </div>
+                                <div class="col">
+                                    <h5>Ajuda</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#" class="bt-chat" data-toggle="modal" data-target="#modal-chat" data-whatever="@getbootstrap">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3">
+                                    <i class="fa fas fa-exclamation-triangle"></i>
+                                </div>
+                                <div class="col">
+                                    <h5>Reportar Problema</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer 
+  <footer class="py-5 bg-blue">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+    </div>
+    <!-- /.container 
+  </footer>-->
+
+    <!-- Modal Chat -->
+
+    <div class="modal fade" id="modal-chat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Fale conosco</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Assunto:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Mensagem:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Ajuda-->
+
+    <div class="modal fade" id="modal-ajuda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Suporte</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+
+              </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Recebi um alerta</li>
+                        <p>Caso você tenha recebido um alerta há algo de errado no seu telhado, impedindo o escoamento da água da chuva que por consequência tem acumulado água.</p>
+                        <li>Tenho infiltrações em paredes e/ou lajes</li>
+                        <p>Essas infiltrações provavelmente são provenientes de falhas no sistema de escoamento,para evitar o problema recomendamos:</p>
+                        <ol>
+                            <div class="row">
+                                <div class="col">
+                                    <li>Inspecione o telhado e as calhas do sistema de escoamento a procura de pontos com sujeira e detritos que possam estar obstruindo o fluxo e provocando o problema.</li>
+                                </div>
+                                <div class="col">
+                                    <img src="img/calhas.jpg" width="120px">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <li>Verifique se o nivelamento do telhado está adequado para evitar o problema.</li>
+                                </div>
+                                <div class="col">
+                                    <img src="img/nivel.jpg" width="120px">
+                                </div>
+                            </div>
+                        </ol>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/chat.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+
+
+    <script src="js/user_update.js"></script>
+</body>
+
+</html>

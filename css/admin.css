@@ -1,0 +1,91 @@
+    .card {
+        margin-bottom: 10px;
+        margin-right: none;
+        margin-left: none;
+        padding: none;
+        text-align: center;
+        min-height: 10rem;
+        text-align: center;
+        padding-top: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .col {
+        margin: none;
+        padding: none;
+    }
+    
+    .navbar {
+        font-family: sans-serif !important;
+    }
+    
+    .card-body .fa-envelope {
+        background-color: #f1c40f;
+        color: white;
+        font-size: 25px;
+        margin-right: 16px;
+        padding: .3rem;
+        border-radius: 50%;
+    }
+    
+    .card-body .fa-user-plus {
+        background-color: #467fcf;
+        color: white;
+        font-size: 25px;
+        margin-right: 16px;
+        padding: .3rem;
+        border-radius: 50%;
+    }
+    
+    .card-body .fa-exclamation-triangle {
+        background-color: red;
+        color: black;
+        font-size: 25px;
+        margin-right: 16px;
+        padding: .3rem;
+        border-radius: 50%;
+    }
+    
+    .card-body .row .col {
+        margin: none;
+        padding: 0;
+    }
+    
+    .card-body .row {
+        margin: none;
+        padding: 0;
+    }
+    
+    body {
+        padding-top: 54px;
+    }
+    
+    @media (min-width: 992px) {
+        body {
+            padding-top: 56px;
+        }
+    }
+    
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+    
+    .bg-black {
+        background-color: #2c9ce1e2 !important;
+    }
+    
+    .bg-blue {
+        background-color: rgba(10, 116, 202, 0.945);
+    }
+    
+    .pop {
+        font-family: Lato;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+    }

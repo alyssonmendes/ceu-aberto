@@ -1,0 +1,17 @@
+create table sensor_data (
+    -> id int not null auto_increment,
+    -> agua bool not null,
+    -> sensor_id int not null,
+    -> time datetime not null,
+    -> primary key(id),
+	key sensor_id (sensor_id),
+	constraint fk_sensor_id foreign key(sensor_id) references sensors(id)
+);
+
+
+
+create table sensors(
+    -> id int not null auto_increment,
+    -> sensor varchar(20) not null,
+    -> primary key(id));
+

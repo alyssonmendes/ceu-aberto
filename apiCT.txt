@@ -1,0 +1,1 @@
+ID: (7364) http://apiadvisor.climatempo.com.br/api/v1/locale/city?name=Jo%C3%A3o%20Pessoa&state=PB&token=2fe1e0eea67e5c6a1f9096c61b29d808

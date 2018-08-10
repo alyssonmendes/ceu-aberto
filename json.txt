@@ -1,0 +1,24 @@
+{
+    "icone": "chuva" ou "sol",
+    "sensor1": {
+        "situacao": "seco" ou "molhado"
+        //graficos ?
+    },
+    "sensor2": {
+        "situacao": "seco" ou "molhado"
+        //graficos ?
+    },
+    "sensor3": {
+        "situacao": "seco" ou "molhado"
+        //graficos ?
+    }
+}
+
+
+
+{
+    "casos_acumulo":  ex. "10" ,
+    "problemas_saude":  ex. "10"
+}
+
+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
